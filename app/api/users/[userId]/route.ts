@@ -28,7 +28,8 @@ export async function PUT(request: NextRequest, context: any) {
     );
   }
 }
-export async function DELETE(request: NextResponse, context: any) {
+
+export async function DELETE(request: NextRequest, context: any) {
   const { params } = context;
 
   try {

@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import "tailwindcss/tailwind.css";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 
